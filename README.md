@@ -21,7 +21,7 @@ We use [MTCNN](https://github.com/ipazc/mtcnn) to detect and crop faces from the
 ### ▶️ Run:
 
 ```bash
-python face_extraction.py
+python face_extraction_from_video.py
 ```
 ## 🤖 2. Face Generation with GAN
 A Deep Convolutional GAN (DCGAN) is used to generate 128x128 realistic faces from random noise vectors.
@@ -42,7 +42,7 @@ A Deep Convolutional GAN (DCGAN) is used to generate 128x128 realistic faces fro
 
 ### ▶️ Run:
 ```bash
-python face_gan_train.py
+python gan_for_face_generation.py
 ```
 ## 🛠 Requirements
 ```bash
